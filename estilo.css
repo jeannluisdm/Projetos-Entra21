@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 260px;
+    height: auto;
+}
+
+.titulo-interesses {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.area-busca {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.campo-busca {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.botao-adicionar {
+    padding: 10px 15px;
+    background-color: #0066cc;
+    color: white;
+    border: 1px solid #0066cc;
+    border-radius: 0 4px 4px 0;
+    cursor: default;
+}
+
+.lista-cursos {
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 600px;
+}
+
+.curso {
+    color: #800080;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.area-limpar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botao-limpar {
+    padding: 10px 20px;
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: default;
+}
